@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="nav-image" src="/images/money-sack.png" alt="Loading image" />
+                
+            <div class="nav-button">
+                <a class="header-link" href="">Home</a>
+            </div>
+            <div class="nav-button">
+                <a class="header-link" href="">About</a>
+            </div>
+            <div class="nav-button">
+                <a class="header-link" href="">Daily</a>
+            </div>
+            <div class="nav-button">
+                <a class="header-link" href="">Monthly</a>
+            </div>
+            <div class="nav-button">
+                <a class="header-link" href="">Yearly</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-top">
+            <h3 class="logo-text">With expense tracker we help you in keeping a record of your daily expenses so that you can plan your finances, never go over the budget or break your head trying to remember an expense you forgot which can really mess up the balance sheet. </h3>
+            <img class="logo-img"src="https://media.giphy.com/media/l2YOp5fNAFMp63B3a/giphy.gif" alt="gif">
+        </div>
+        <form class="form">
+            <div class="form-ele">
+                <label class="form-label" for="price">Price:</label>
+                <input class="form-input" type="text" id="price"><br>
+            </div>
+            <div class="form-ele">
+                <label class="form-label" for="product">Product:</label>
+                <input class="form-input" type="text" id="product"><br>
+            </div>
+            <div class="form-ele">
+                <label class="form-label" for="category">Category:</label>
+                <select class="form-text" class="form-input" name="category" id="">
+                    <option class="form-text" value="food">Food</option>
+                    <option class="form-text" value="electronics">Electronics</option>
+                    <option class="form-text" value="lifestyle">Lifestyle</option>
+                </select><br>
+            </div>
+            <button class="form-text" type="submit"> Add expense</button>
+        </form>
+        <div class="expenses" hidden>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-div-left">
+            <img class="footer-img" src="/images/footer-left.png"/>
+        </div>
+        <div class="footer-div-center">
+            <h3 class="footer-text">Expense tracker is an open source application created in 2023. It is inspired by the app "Day to Day Expenses" and created as a portfolio project.</h3>
+            <div class="links">
+                <a class="footer-link" href="">Home</a>
+                <a class="footer-link" href="">About</a>
+                <a class="footer-link" href="">Daily</a>
+                <a class="footer-link" href="">Monthly</a>
+                <a class="footer-link" href="">Yearly</a>
+            </div>
+        </div>
+        <div class="footer-div-right">
+            <img class="footer-img" src="/images/money-sack.png"/>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>@❤️ritikGangwar</p>
+    </div>
+</body>
+</html>
